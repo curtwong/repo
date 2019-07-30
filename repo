@@ -1,0 +1,101 @@
+#include <iostream>
+
+using namespace std;
+
+int show()
+{
+
+	char e,h,i,s,j;
+	double a,d,b,c,g,f,n,m;
+	int arr[10];
+	int temp;
+	cout << "Enter Cases: ";
+	cin >> e;
+	
+	switch(e)
+	{
+	case 'C':
+	case 'c':
+	cout << "Enter Radius: ";
+	cin >> a;
+	b=3.14*(a*a);
+	cout << "Area Of A Circle Is: " << b << endl;
+	c=2*3.14*(a);
+	cout << "Circumference Of A Circle is: " << c << endl;
+	break;
+	 }
+}
+
+
+int print()
+{
+
+	char e,h,i,s,j;
+	double a,d,b,c,g,f,n,m;
+	int arr[10];
+	int temp;
+	cout << "Enter Cases: ";
+	cin >> e;
+	
+	switch(e)
+	{
+	case 'S':
+	case 's':
+	cout << "Enter Side: ";
+	cin >> d;
+	g=d*d;
+	cout << "Area Of A Square Is: " << g << endl;
+	f=4*d;
+	cout << "Perimeter Of A Square is: " << f << endl; 
+	break;
+}
+}
+
+
+int put()
+{
+
+	char e,h,i,s,j;
+	double a,d,b,c,g,f,n,m;
+	int arr[10];
+	int temp;
+	cout << "Enter Cases: ";
+	cin >> e;
+	
+	switch(e)
+	{
+	case 'A':
+	case 'a':
+	cout << "Enter Array: " << endl;
+	 for (i=0; i<4; i++)
+	 {
+	 	cin >> arr[i];
+	 }
+	 for (j=0; j<4; j++)
+		arr[j] = arr[i];
+	 	arr[j]<temp;
+	 	temp<m;
+	 	cout << "Descending: " <<  arr[j] << ", " << endl;
+	 }
+}
+
+int main()
+{
+	{
+	
+	char y;
+	do
+	{
+	show();
+	print();
+	put();
+}
+	cout << "Press y To Continue:";
+ 	cin >> y;
+ 	continue;
+ 
+ 
+ while ('y'==y||'Y'==y);
+
+	return 0;
+}
